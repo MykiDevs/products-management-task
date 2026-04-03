@@ -8,5 +8,4 @@ import java.util.Optional;
 
 @Repository
 public interface ProducerRepository extends JpaRepository<Producer, Long> {
-    Optional<Producer> getProducersById(Long id);
 }

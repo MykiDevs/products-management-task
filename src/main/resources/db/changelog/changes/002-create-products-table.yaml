@@ -18,6 +18,11 @@ databaseChangeLog:
                   name: name
                   type: VARCHAR(255)
               - column:
+                  name: price
+                  type: DECIMAL(19,4)
+                  constraints:
+                    nullable: false
+              - column:
                   name: producer_id
                   type: BIGINT
                   constraints:

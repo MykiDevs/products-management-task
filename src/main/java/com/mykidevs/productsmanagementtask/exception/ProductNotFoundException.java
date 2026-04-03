@@ -1,8 +1,8 @@
-package exception;
+package com.mykidevs.productsmanagementtask.exception;
 
 
 public class ProductNotFoundException extends NotFoundException {
     public ProductNotFoundException(Long id) {
-        super("User with id " + id + "not found");
+        super("Product with id " + id + "not found");
     }
 }

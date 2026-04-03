@@ -1,6 +1,4 @@
-package exception;
-
-import org.aspectj.weaver.ast.Not;
+package com.mykidevs.productsmanagementtask.exception;
 
 public abstract class NotFoundException extends RuntimeException{
     public NotFoundException(String message) {

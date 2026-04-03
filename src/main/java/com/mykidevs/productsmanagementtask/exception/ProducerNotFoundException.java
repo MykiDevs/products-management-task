@@ -1,4 +1,4 @@
-package exception;
+package com.mykidevs.productsmanagementtask.exception;
 
 
 public class ProducerNotFoundException extends NotFoundException {
