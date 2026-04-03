@@ -1,1 +1,16 @@
-spring.application.name=products-management-task
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db
+    username: admin
+    password: password
+    hikari:
+      maximum-pool-size: 50
+      minimum-idle: 5
+  application:
+    name: products-management-task
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.yaml
+    enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: validate
