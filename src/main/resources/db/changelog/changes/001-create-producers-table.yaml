@@ -1,0 +1,20 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: mykidevs
+      changes:
+        - createTable:
+            tableName: producers
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+                    unique: true
+        - createSequence:
+            sequenceName: producer_seq_id
+            incrementBy: 10
+            startValue: 1
