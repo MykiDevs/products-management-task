@@ -5,7 +5,7 @@ REST API for managing products and producers, built with Spring Boot and Postgre
 ## Tech Stack
 
 - Java 25
-- Spring Boot
+- Spring Boot 3
 - PostgreSQL + Liquibase
 - MapStruct, Lombok
 
